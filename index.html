@@ -12,47 +12,49 @@
 <body>
     <div id="wrapper">
         <header>
-            <div class="layout">
+            <div class="layout clearfix">
                 <div class="logo__top">
                     <img src="/img/ico-house.png" alt="дом">
                     <div class="logo__top__title">
-                        <p class="logo__top__title__house">Жилой дом</p>
-                        <p class="logo__top__title__district">Ярославская область</p>
+                        <p class="logo__top__title__house">ЖИЛОЙ ДОМ</p>
+                        <p class="logo__top__title__district">ЯРОСЛАВСКАЯ ОБЛАСТЬ</p>
                     </div>
                 </div>
                 <nav>
                     <ul>
-                        <li>Инфраструктура</li>
-                        <li>Планировки и цены</li>
-                        <li>Материалы и отделка</li>
-                        <li>Документы</li>
-                        <li>Контакты</li>
+                        <li><a href="#">Инфраструктура</a></li>
+                        <li><a href="#">Планировки и цены</a></li>
+                        <li><a href="#">Материалы и отделка</a></li>
+                        <li><a href="#">Документы</a></li>
+                        <li><a href="#">Контакты</a></li>
                     </ul>
                 </nav>
                 <div class="phone__top">
                     <p class="phone__top__number">+7 (495) 544-23-12</p>
-                    <a href="#">Заказать звонок</a>
+                    <div class="phone__top__request">
+                        <a href="#">Заказать звонок</a>
+                    </div>
                 </div>
             </div>
         </header>
         <main>
-            <div class="layout">
                 <section id="top">
+                    <div class="layout">
                     <div class="top__cloud">
-                        <p><span class="subtitle">Дом готов</span>, идёт внутренняя отделка. Срок сдачи: <span
-                                class="subtitle">Февраль 2016</span></p>
-                        <h1>Ваша квартира в новострое ждет вас</h1>
-                        <p>Уютные квартиры в центре города и в <span class="subtitle">5 минутах от р. Волга</span></p>
+                        <p class="top__cloud__title"><span class="title__span">Дом готов</span>, идёт внутренняя отделка. Срок сдачи: 
+                            <span class="title__span">Февраль 2016</span></p>
+                        <h1>ВАША КВАРТИРА В НОВОСТРОЕ ЖДЕТ ВАС</h1>
+                        <p class="top__cloud__subtitle">Уютные квартиры в центре города и в <span class="title__span">5 минутах от р. Волга</span></p>
                     </div>
                     <div class="top__sign__up">
                         <p class="top__sign__up__top__title">Запишитесь на просмотр прямо сейчас!</p>
                         <p class="top__sign__up__subtitle">Покажем Вам квартиры в удобное для Вас время</p>
                         <form action="url" method="post">
-                            <input type="text">
-                            <input type="tel">
+                            <input type="text" placeholder="Имя">
+                            <input type="tel" placeholder="Телефон">
                             <a href="#">Записаться на просмотр!</a>
                         </form>
-                        <p class="top__sign__up__bottom__title">Осталось всего 5 квартир!</p>
+                        <p class="top__sign__up__bottom__title">Осталось всего <span class="top__sign__up__span">5</span> квартир!</p>
                     </div>
                     <div class="top__list">
                         <div class="top__list__one"><span class="top__list__bold">5 минут</span> до
@@ -77,6 +79,7 @@
                         <p class="top__end__deadline">Срок сдачи: Февраль 2016</p>
                         <p class="top__end__insurance">Дом полностью застрахован</p>
                         <img src="/img/middle-hand.png" alt="класс">
+                    </div>
                     </div>
                 </section>
                 <section id="center">
@@ -204,6 +207,7 @@
             </div>
         </main>
         <footer>
+            <div class="layout">
             <div class="logo__bottom">
                 <img src="/img/ico-house.png" alt="дом">
                 <div class="logo__title__bottom">
@@ -225,6 +229,7 @@
                 <p class="phone__bottom__number">+7 (495) 544-23-12</p>
                 <a href="#">Заказать звонок</a>
             </div>
+        </div>
         </footer>
     </div>
 </body>
