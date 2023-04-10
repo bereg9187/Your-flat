@@ -87,7 +87,7 @@ header {
 }
 nav {
   float: left;
-  margin-top: 36px;
+  margin-top: 35px;
 }
 nav ul li {
   display: inline-block;
@@ -141,13 +141,14 @@ nav ul li a {
 #top {
   background-image:url(/img/House.png);
   background-position-y: -10px;
+  background-repeat: no-repeat;
 }
 .top__cloud {
   background-image:url(/img/cloud.png);
   background-repeat: no-repeat;
   background-position-y: 31px;
   background-position-x: 78px;
-  padding-bottom: 195px;
+  padding-bottom: 230px;
 }
 .top__cloud__title {
   margin-left: 25px;
@@ -181,15 +182,15 @@ h1 {
 .top__sign__up {
   background-image: url(/img/middle-banner.png);
   background-repeat: no-repeat;
-  background-position-y: -26px;
-  height: 286px;
+  background-position-y: -63px;
   margin-left: 156px;
+  padding-bottom: 60px;
 }
 .top__sign__up__top__title {
   font-size: 24px;
   font-weight: bold;
-  margin-left: 192px;
-  padding-top: 70px;
+  margin-left: 191px;
+  padding-top: 34px;
   color: #fbfafa;
 }
 .top__sign__up__subtitle {
@@ -199,23 +200,47 @@ h1 {
   color: #fbfafa;
 }
 form {
-  margin-left: 112px;
-  padding-top: 23px;
+  margin-left: 110px;
+  padding-top: 20px;
 }
 form input {
   width: 201px;
   height: 52px;
-  margin-right: 3px;
+  margin-right: 4px;
   border-radius: 5px;
   box-sizing: border-box;
+}
+.icomen {
+  background-image:url(/img/ico-men.png);
+  background-repeat:no-repeat;
+  background-position-y: 15px;
+  background-position-x: 24px;
+  padding-left: 46px;
+}
+.icomen::placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2.5px;
+}
+.icophone {
+  background-image:url(/img/ico-phone2.png);
+  background-repeat:no-repeat;
+  background-position-x: 23px;
+  background-position-y: 16px;
+  padding-left: 46px;
+}
+.icophone::placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  
 }
   form a {
   font-size: 17px;
   font-weight: bold;
-  width: 274px;
+  width: 273px;
   display: inline-block;
-  padding-bottom: 15px;
-  padding-top: 14px;
+  padding-bottom: 18px;
+  padding-top: 12px;
   background-color: #d22828;
   border-radius: 5px;
   text-align: center;
@@ -224,9 +249,10 @@ form input {
 .top__sign__up__bottom__title {
   font-size: 15.3px;
   font-weight: 300;
-  margin-left: 336px;
-  margin-top: 39px;
+  margin-left: 335px;
+  margin-top: 38px;
   word-spacing: 1px;
+  color: #7925ec;
 }
 .top__sign__up__span {
   width: 28px;
@@ -236,4 +262,151 @@ form input {
   display: inline-block;
   text-align: center;
   font-size: 20.7px;
+  font-weight: bold;
+  color: #7925ec;
+}
+.top__list {
+  position: relative;
+  margin-bottom: 15px;
+}
+.top__list__one,
+.top__list__two,
+.top__list__three,
+.top__list__four,
+.top__list__five,
+.top__list__six {
+  background-image:url(/img/middle-circle.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: left;
+  width: 153px;
+  height: 146px;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: center;
+}
+.top__list__bold {
+  font-weight: bold;
+}
+
+.top__list__one {
+  margin-left: 38px;
+  margin-top: 123px;
+}
+.top__list__one p {
+  padding-top: 55px;
+  padding-left: 5px;
+  line-height: 20px;
+}
+.top__list__two {
+  margin-left: 50px;
+  margin-top: 55px;
+}
+.top__list__two p {
+  padding-top: 56px;
+  padding-left: 12px;
+  line-height: 20px;
+}
+.top__list__three {
+  margin-left: 45px;
+  margin-top: 3px;
+}
+.top__list__three p {
+  padding-top: 50px;
+  padding-left: 10px;
+  word-spacing: 30px;
+  line-height: 20px;
+}
+.top__list__four {
+  margin-left: 50px;
+  margin-top: 3px;
+}
+.top__list__four p {
+  padding-top: 42px;
+  padding-left: 7px;
+  line-height: 20px;
+}
+.top__list__four__bag {
+  font-family: "Museo Sans Cyrl", sans-serif;
+  font-size: 17px;
+  font-weight: 100;
+}
+.top__list__five {
+  margin-left: 45px;
+  margin-top: 55px;
+}
+.top__list__five p {
+  padding-top: 44px;
+  padding-left: 11px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.top__list__bold__bag {
+  padding-right: 3px;
+}
+.top__list__six {
+  margin-top: 132px;
+  margin-left: 40px;
+}
+
+.design__bag {
+  font-size: 15px;
+  padding-left: 9px;
+}
+.top__list__six__title {
+  padding-top: 41px;
+  font-size: 17px;
+  font-weight: bold;
+  padding-left: 11px;
+}
+.top__list__six__subtitle {
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 8px;
+}
+.top__list__six__text {
+  font-family: "Museo Sans Cyrl", sans-serif;
+  font-size: 17px;
+  font-weight: 100;
+  padding-left: 10px;
+}
+.top__end {
+  background-image:url(/img/middle-wave-violet.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+  height: 200px;
+  position: relative;
+}
+.top__end__title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 17px;
+  padding-top: 37px;
+}
+.top__end__deadline {
+  background-image: url(/img/flag.png);
+  background-repeat: no-repeat;
+  background-position-y: 6px;
+  background-position-x: 794px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  margin-right: 30px;
+  margin-top: 8px;
+  text-align: center;
+}
+.top__end img {
+  margin-left: 892px;
+  margin-top: 7px;
+}
+.top__end__insurance {
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  width: 165px;
+  height: 130px;
+  border: 2px solid black;
+  border-radius: 50%;
 }

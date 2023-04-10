@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -50,36 +50,44 @@
                         <p class="top__sign__up__top__title">Запишитесь на просмотр прямо сейчас!</p>
                         <p class="top__sign__up__subtitle">Покажем Вам квартиры в удобное для Вас время</p>
                         <form action="url" method="post">
-                            <input type="text" placeholder="Имя">
-                            <input type="tel" placeholder="Телефон">
+                            <input type="text" placeholder="Имя" class="icomen">
+                            <input type="tel" placeholder="Телефон" class="icophone">
                             <a href="#">Записаться на просмотр!</a>
                         </form>
                         <p class="top__sign__up__bottom__title">Осталось всего <span class="top__sign__up__span">5</span> квартир!</p>
                     </div>
-                    <div class="top__list">
-                        <div class="top__list__one"><span class="top__list__bold">5 минут</span> до
-                            центра</div>
-                        <div class="top__list__two"><span class="top__list__bold">300 метров</span> до
-                            Волги</div>
-                        <div class="top__list__three"><span class="top__list__bold">Экологически
+                    <div class="top__list clearfix">
+                        <div class="top__list__one"><p><span class="top__list__bold">5 минут</span> до
+                            центра</p></div>
+                        <div class="top__list__two"><p><span class="top__list__bold">300 метров</span> до
+                            Волги</p></div>
+                        <div class="top__list__three"><p><span class="top__list__bold">Экологически
                                 чистое</span>
-                            место</div>
-                        <div class="top__list__four"><span class="top__list__bold">Бесплатная
+                            место</p></div>
+                        <div class="top__list__four"><p><span class="top__list__bold">Бесплатная
                                 кладовка</span>
-                            в подвале</div>
-                        <div class="top__list__five"><span class="top__list__bold">Бесплатное
+                            <br><span class="top__list__four__bag">в подвале</span></p></div>
+                        <div class="top__list__five"><p><span class="top__list__bold__bag">Бесплатное</span>
                                 парковочное
-                                место</span></div>
-                        <div class="top__list__six"><span class="top__list__bold">Бюджетная
-                                отделка под ключ:</span>
-                            въехал и живи</div>
+                                место</p></div>
+                        <div class="top__list__six">
+                            <p class="top__list__six__title">Бюджетная</p>
+                            <p class="top__list__six__subtitle">отделка под ключ:</p>
+                            <p class="top__list__six__text">въехал и живи</p></div>
                     </div>
+                </div>
                     <div class="top__end">
                         <p class="top__end__title">Дом готов. Идёт внутренняя отделка</p>
                         <p class="top__end__deadline">Срок сдачи: Февраль 2016</p>
-                        <p class="top__end__insurance">Дом полностью застрахован</p>
-                        <img src="/img/middle-hand.png" alt="класс">
-                    </div>
+                        <div class="top__end__insurance">
+                            <div class="words">
+                                <div class="letter">Д</div>
+                                <!-- <div class="letter">о</div>
+                                <div class="letter">м</div> -->
+                            </div>
+                            <!-- Дом полностью застрахован -->
+                        </div>
+                        <!-- <img src="/img/middle-hand.png" alt="класс"> -->
                     </div>
                 </section>
                 <section id="center">
@@ -204,7 +212,6 @@
                         </div>
                     </div>
                 </section>
-            </div>
         </main>
         <footer>
             <div class="layout">
@@ -232,6 +239,8 @@
         </div>
         </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/main.js"></script>
+    
 </body>
-
 </html>
