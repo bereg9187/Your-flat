@@ -182,9 +182,9 @@ h1 {
 .top__sign__up {
   background-image: url(/img/middle-banner.png);
   background-repeat: no-repeat;
-  background-position-y: -63px;
+  background-position-y: -61px;
   margin-left: 156px;
-  padding-bottom: 60px;
+  padding-bottom: 64px;
 }
 .top__sign__up__top__title {
   font-size: 24px;
@@ -201,7 +201,7 @@ h1 {
 }
 form {
   margin-left: 110px;
-  padding-top: 20px;
+  padding-top: 22px;
 }
 form input {
   width: 201px;
@@ -250,7 +250,7 @@ form input {
   font-size: 15.3px;
   font-weight: 300;
   margin-left: 335px;
-  margin-top: 38px;
+  margin-top: 37px;
   word-spacing: 1px;
   color: #7925ec;
 }
@@ -290,8 +290,8 @@ form input {
 }
 
 .top__list__one {
-  margin-left: 38px;
-  margin-top: 123px;
+  margin-left: 39px;
+  margin-top: 119px;
 }
 .top__list__one p {
   padding-top: 55px;
@@ -300,7 +300,7 @@ form input {
 }
 .top__list__two {
   margin-left: 50px;
-  margin-top: 55px;
+  margin-top: 52px;
 }
 .top__list__two p {
   padding-top: 56px;
@@ -309,7 +309,6 @@ form input {
 }
 .top__list__three {
   margin-left: 45px;
-  margin-top: 3px;
 }
 .top__list__three p {
   padding-top: 50px;
@@ -319,7 +318,6 @@ form input {
 }
 .top__list__four {
   margin-left: 50px;
-  margin-top: 3px;
 }
 .top__list__four p {
   padding-top: 42px;
@@ -333,7 +331,7 @@ form input {
 }
 .top__list__five {
   margin-left: 45px;
-  margin-top: 55px;
+  margin-top: 51px;
 }
 .top__list__five p {
   padding-top: 44px;
@@ -345,7 +343,7 @@ form input {
   padding-right: 3px;
 }
 .top__list__six {
-  margin-top: 132px;
+  margin-top: 127px;
   margin-left: 40px;
 }
 
@@ -382,19 +380,19 @@ form input {
   font-size: 30px;
   font-weight: bold;
   color: #fff;
-  margin-right: 17px;
+  margin-right: 16px;
   padding-top: 37px;
 }
 .top__end__deadline {
   background-image: url(/img/flag.png);
   background-repeat: no-repeat;
-  background-position-y: 6px;
-  background-position-x: 794px;
+  background-position-y: 7px;
+  background-position-x: 795px;
   font-size: 20px;
   font-weight: 300;
   color: #fff;
-  margin-right: 30px;
-  margin-top: 8px;
+  margin-right: 28px;
+  margin-top: 9px;
   text-align: center;
 }
 .top__end img {
@@ -403,10 +401,227 @@ form input {
 }
 .top__end__insurance {
   position: absolute;
-  top: 60%;
-  left: 45%;
-  width: 165px;
-  height: 130px;
-  border: 2px solid black;
-  border-radius: 50%;
+  top: 139px;
+  left: 893px;
+  width: 109px;
+  height: 109px;
+  /* border: 2px solid black; */
+  background-image: url(/img/middle-hand.png);
+  /* border-radius: 50%; */
+}
+.words {
+  font-family: 'adelle_cyrilliclight', sans-serif;
+  font-size: 15px;
+}
+.letter-one {
+  position: absolute;
+  top: 33px;
+  left: -16px;
+  transform: rotate(-80deg);
+  color:#fff;
+}
+.letter-two {
+  position: absolute;
+  top: 24px;
+  left: -14px;
+  transform: rotate(-80deg);
+  color:#fff;
+}
+.letter-three {
+  position: absolute;
+  top: 14px;
+  left: -12px;
+  transform: rotate(-65deg);
+  color:#fff;
+}
+.letter-four {
+  position: absolute;
+  top: 5px;
+  left: -3px;
+  transform: rotate(-51deg);
+  color: #fff;
+}
+.letter-five {
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  transform: rotate(-33deg);
+  color: #fff;
+}
+.letter-six {
+  position: absolute;
+  top: -7px;
+  left: 8px;
+  transform: rotate(-41deg);
+  color: #fff;
+}
+.letter-seven {
+  position: absolute;
+  top: -13px;
+  left: 15px;
+  transform: rotate(-33deg);
+  color: #fff;
+}
+.letter-eight {
+  position: absolute;
+  top: -15px;
+  left: 23px;
+  transform: rotate(-28deg);
+  color: #fff;
+}
+.letter-nine {
+  position: absolute;
+  top: -18px;
+  left: 31px;
+  transform: rotate(-19deg);
+  color: #fff;
+}
+.letter-ten {
+  position: absolute;
+  top: -20px;
+  left: 39px;
+  transform: rotate(-9deg);
+  color: #fff;
+}
+.letter-eleven {
+  position: absolute;
+  top: -21px;
+  left: 46px;
+  transform: rotate(-4deg);
+  color: #fff;
+}
+.letter-twelve {
+  position: absolute;
+  top: -21px;
+  left: 54px;
+  transform: rotate(3deg);
+  color: #fff;
+}
+.letter-thirteen {
+  position: absolute;
+  top: -19px;
+  left: 68px;
+  transform: rotate(15deg);
+  color: #fff;
+}
+.letter-fourteen {
+  position: absolute;
+  top: -16px;
+  left: 74px;
+  transform: rotate(18deg);
+  color: #fff;
+}
+.letter-fifteen {
+  position: absolute;
+  top: -13px;
+  left: 82px;
+  transform: rotate(37deg);
+  color: #fff;
+}
+.letter-sixteen {
+  position: absolute;
+  top: -10px;
+  left: 88px;
+  transform: rotate(34deg);
+  color: #fff;
+}
+.letter-seventeen {
+  position: absolute;
+  top: -6px;
+  left: 94px;
+  transform: rotate(40deg);
+  color: #fff;
+}
+.letter-eighteen {
+  position: absolute;
+  top: 1px;
+  left: 99px;
+  transform: rotate(48deg);
+  color: #fff;
+}
+.letter-nineteen {
+  position: absolute;
+  top: 7px;
+  left: 105px;
+  transform: rotate(48deg);
+  color: #fff;
+}
+.letter-twenty {
+  position: absolute;
+  top: 13px;
+  left: 109px;
+  transform: rotate(62deg);
+  color: #fff;
+}
+.letter-twenty-one {
+  position: absolute;
+  top: 20px;
+  left: 113px;
+  transform: rotate(69deg);
+  color: #fff;
+}
+.letter-twenty-two {
+  position: absolute;
+  top: 27px;
+  left: 115px;
+  transform: rotate(75deg);
+  color: #fff;
+}
+.letter-twenty-three {
+  position: absolute;
+  top: 35px;
+  left: 117px;
+  transform: rotate(81deg);
+  color: #fff;
+}
+#center {
+  position: relative;
+}
+.center__title__top {
+  font-size: 37px;
+  font-weight: bold;
+  margin-left: 603px;
+  margin-top: 88px;
+  letter-spacing: 0.65px;
+}
+.center__subtitle__top {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #000000;
+  margin-left: 773px;
+  margin-top: 4px;
+  letter-spacing: 0.15px;
+}
+.center__album__place {
+  position: relative;
+}
+.center__river,
+.center__forest,
+.center__playground {
+  display: inline-block;
+  margin-right: 31px;
+}
+.center__river {
+  margin-left: 375px;
+  margin-top: 52px;
+}
+
+.center__river__title {
+  font-size: 21px;
+  font-weight: bold;
+  color:#000000;
+  margin-left: 99px;
+  margin-top: 16px;
+  margin-bottom: 1px;
+}
+.center__river__sibtitle {
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 108px;
+  letter-spacing: 0.1px;
+}
+.center__forest__title {
+  font-size: 21px;
+  font-weight: bold;
+  color: #000000;
 }
