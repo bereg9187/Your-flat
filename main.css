@@ -416,7 +416,7 @@ form input {
 .letter-one {
   position: absolute;
   top: 33px;
-  left: -16px;
+  left: -17px;
   transform: rotate(-80deg);
   color:#fff;
 }
@@ -431,28 +431,28 @@ form input {
   position: absolute;
   top: 14px;
   left: -12px;
-  transform: rotate(-65deg);
+  transform: rotate(-60deg);
   color:#fff;
 }
 .letter-four {
   position: absolute;
-  top: 5px;
-  left: -3px;
-  transform: rotate(-51deg);
+  top: 4px;
+  left: -4px;
+  transform: rotate(-49deg);
   color: #fff;
 }
 .letter-five {
   position: absolute;
   top: -2px;
   left: 2px;
-  transform: rotate(-33deg);
+  transform: rotate(-34deg);
   color: #fff;
 }
 .letter-six {
   position: absolute;
   top: -7px;
   left: 8px;
-  transform: rotate(-41deg);
+  transform: rotate(-38deg);
   color: #fff;
 }
 .letter-seven {
@@ -506,9 +506,9 @@ form input {
 }
 .letter-fourteen {
   position: absolute;
-  top: -16px;
+  top: -17px;
   left: 74px;
-  transform: rotate(18deg);
+  transform: rotate(34deg);
   color: #fff;
 }
 .letter-fifteen {
@@ -534,15 +534,14 @@ form input {
 }
 .letter-eighteen {
   position: absolute;
-  top: 1px;
-  left: 99px;
-  transform: rotate(48deg);
+  left: 100px;
+  transform: rotate(49deg);
   color: #fff;
 }
 .letter-nineteen {
   position: absolute;
-  top: 7px;
-  left: 105px;
+  top: 6px;
+  left: 106px;
   transform: rotate(48deg);
   color: #fff;
 }
@@ -577,12 +576,13 @@ form input {
 #center {
   position: relative;
 }
-.center__title__top {
+.center__title__top,
+.center__title__middle {
   font-size: 37px;
   font-weight: bold;
-  margin-left: 603px;
   margin-top: 88px;
   letter-spacing: 0.65px;
+  text-align: center;
 }
 .center__subtitle__top {
   font-size: 20px;
@@ -594,11 +594,12 @@ form input {
 }
 .center__album__place {
   position: relative;
+  margin-bottom: 147px;
 }
 .center__river,
 .center__forest,
 .center__playground {
-  display: inline-block;
+  float: left;
   margin-right: 31px;
 }
 .center__river {
@@ -616,12 +617,69 @@ form input {
 }
 .center__river__sibtitle {
   font-size: 15px;
-  font-weight: lighter;
-  margin-left: 108px;
-  letter-spacing: 0.1px;
+  margin-left: 106px;
+}
+.center__forest img {
+  margin-bottom: 17px;
+  margin-top: 82px;
 }
 .center__forest__title {
   font-size: 21px;
   font-weight: bold;
   color: #000000;
+  margin-left: 108px;
+}
+.center__forest__subtitle {
+  margin-left: 67px;
+  font-size: 15px;
+  letter-spacing: -0.05px;
+}
+.center__playground img {
+  margin-top: 51px;
+}
+.center__playground__title {
+  font-size: 21px;
+  font-weight: bold;
+  color:#000000;
+  margin-top: 23px;
+  margin-left: 77px;
+}
+.center__playground__subtitle {
+  font-size: 15px;
+  margin-top: 4px;
+  margin-left: 96px;
+}
+.center__playground__subtitle__two {
+  font-size: 15px;
+  margin-left: 119px;
+}
+.center__object {
+  position: relative;
+}
+.center__object__social {
+  float: left;
+  margin-left: 475px;
+}
+#title {
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 0.35px;
+  margin-bottom: 51px;
+}
+.center__object ul li {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.35px;
+}
+.center__title__middle {
+  margin-bottom: 54px;
+}
+.center__object__education {
+  float: left;
+  margin-left: 34px;
+}
+.center__object__transport {
+  float: left;
+  margin-left: 98px;
 }
