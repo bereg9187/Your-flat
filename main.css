@@ -830,6 +830,7 @@ form input {
 .bottom__equipment {
   background-color: #329a34;
   padding-top: 62px;
+  margin-bottom: 71px;
 }
 .bottom__equipment__title {
   font-size: 37px;
@@ -873,4 +874,37 @@ form input {
 }
 .equipment__list__center {
   margin-right: 45px;
+}
+.bottom__required__documents__title {
+  font-size: 37px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 9px;
+}
+.bottom__required__documents__subtitle {
+  font-size: 21px;
+  font-weight: 300;
+  margin-left: 715px;
+  margin-bottom: 35px;
+}
+.bottom__required__documents__album {
+  position: relative;
+}
+.declare,
+.license,
+.treaty,
+.certificate {
+  float: left;
+}
+.declare {
+  margin-left: 432px;
+  margin-right: 39px;
+}
+.license {
+  margin-right: 30px;
+}
+.treaty {
+  margin-top: 3px;
+  margin-right: 31px;
 }
